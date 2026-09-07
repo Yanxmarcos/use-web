@@ -19,11 +19,11 @@ export default function About() {
           </p>
           <div className="grid grid-cols-2 gap-8 border-t border-black/15 pt-8">
             <div>
-              <div className="text-3xl md:text-4xl font-medium tracking-tighter mb-2">02 CICLOS<br/>01 AÑO</div>
+              <div className="text-xl md:text-4xl font-medium tracking-tighter mb-2">02 CICLOS<br/>01 AÑO</div>
               <div className="text-xs tracking-widest uppercase text-black/60 font-normal">Plan de Estudios</div>
             </div>
             <div>
-              <div className="text-3xl md:text-4xl font-medium tracking-tighter mb-2">RECONOCIMIENTO<br/>OFICIAL</div>
+              <div className="text-xl md:text-4xl font-medium tracking-tighter mb-2">RECONOCIMIENTO<br/>OFICIAL</div>
               <div className="text-xs tracking-widest uppercase text-black/60 font-normal">A nombre de la Nación</div>
             </div>
           </div>

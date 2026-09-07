@@ -9,7 +9,7 @@ export default function Hero() {
             ¡Obtén especialidad con los más destacados!
           </div>
 
-          <h1 className="text-5xl md:text-7xl lg:text-8xl xl:text-9xl font-medium tracking-tighter uppercase leading-[0.85] mb-8 lg:mb-12 flex flex-col">
+          <h1 className="text-8xl md:text-7xl lg:text-8xl xl:text-9xl font-medium tracking-tighter uppercase leading-[0.85] mb-8 lg:mb-12 flex flex-col">
             <span>USE</span>
           </h1>
 
