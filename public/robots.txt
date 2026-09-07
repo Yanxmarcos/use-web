@@ -1,0 +1,25 @@
+# Permitir a todos los bots
+User-agent: *
+Allow: /
+
+# Rutas a NO indexar
+Disallow: /api/
+
+# Rutas específicas para bots
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0.5
+
+# Bots que pueden acceder
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: MJ12bot
+Crawl-delay: 10
+
+# Configuración de rastreo
+Crawl-delay: 1
+Request-rate: 30/60
