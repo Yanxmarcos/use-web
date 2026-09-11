@@ -1,6 +1,6 @@
 export default function Director() {
   return (
-    <section id="director" className="border-b border-black/15 py-20 lg:py-32 bg-white">
+    <section id="director" className="border-b border-accent/60 py-20 lg:py-32 bg-white">
       <div className="px-6 lg:px-12 mb-12 lg:mb-16 flex flex-col md:flex-row md:items-end justify-between gap-8">
         <div>
           <h2 className="text-4xl lg:text-6xl font-medium tracking-tighter uppercase leading-none">
@@ -12,8 +12,8 @@ export default function Director() {
         </p>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 border-t border-black/15">
-        <div className="md:col-span-2 border-b md:border-b-0 md:border-r border-black/15 p-8 lg:p-12 group">
+      <div className="grid grid-cols-1 md:grid-cols-3 border-t border-accent/60">
+        <div className="md:col-span-2 border-b md:border-b-0 md:border-r border-accent/60 p-8 lg:p-12 group">
           <div className="aspect-[3/4] md:aspect-[16/9] mb-8 overflow-hidden">
             <img src="/img/carlos-vasquez-boyer.webp" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" alt="Director" />
           </div>

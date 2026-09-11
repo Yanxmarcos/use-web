@@ -22,11 +22,11 @@ export default function EventoDetalle({ evento }) {
   const posters = evento.posters || (evento.poster ? [evento.poster] : []);
 
   return (
-    <main className="border-b border-black/15">
+    <main className="border-b border-accent/60">
       {/* Título del evento */}
       <div className="max-w-7xl mx-auto px-6 lg:px-12 py-12 lg:py-20">
         <div className="max-w-7xl mx-auto">
-          <a href="/eventos" className="inline-flex items-center text-xs tracking-widest uppercase font-normal border-b border-black pb-1 hover:text-[#003398] hover:border-[#003398] transition-colors mb-8">
+          <a href="/eventos" className="inline-flex items-center text-xs tracking-widest uppercase font-normal border-b border-accent pb-1 hover:text-[#003398] hover:border-[#003398] transition-colors mb-8">
             <Icon icon="solar:arrow-left-linear" className="mr-2 text-sm" style={{ strokeWidth: 1.5 }} />
             Volver a eventos
           </a>
@@ -72,7 +72,7 @@ export default function EventoDetalle({ evento }) {
               </h2>
               <div className="space-y-6">
                 {evento.programa.map((item, index) => (
-                  <div key={index} className="border-l-2 border-[#003398] pl-6 py-2">
+                  <div key={index} className="border-l-2 border-accent pl-6 py-2">
                     <div className="text-xs tracking-widest uppercase text-[#1F651C] font-normal mb-2">
                       {item.fecha}
                     </div>
@@ -94,7 +94,7 @@ export default function EventoDetalle({ evento }) {
                   </h2>
                   <div className={`grid gap-4 ${posters.length === 1 ? 'grid-cols-1' : posters.length === 2 ? 'grid-cols-2' : 'grid-cols-2'}`}>
                     {posters.map((poster, index) => (
-                      <div key={index} className="border border-black/15 p-2 bg-white">
+                      <div key={index} className="border border-accent/60 p-2 bg-white">
                         <img
                           src={poster}
                           alt={`${evento.titulo} - Publicación ${index + 1}`}
@@ -158,7 +158,7 @@ export default function EventoDetalle({ evento }) {
                 </div>
 
                 {evento.detalles.datosPago && (
-                  <div className="border-t border-white/20 pt-6 mt-6">
+                  <div className="border-t border-accent/70 pt-6 mt-6">
                     <div className="text-xs tracking-widest uppercase text-white/60 mb-3">Datos de Pago</div>
                     <div className="text-sm space-y-2">
                       <div>Banco: {evento.detalles.datosPago.banco}</div>
@@ -184,7 +184,7 @@ export default function EventoDetalle({ evento }) {
 
             {/* Redes Sociales */}
             {tieneRedes && (
-              <div className="border border-black/15 p-6">
+              <div className="border border-accent/60 p-6">
                 <h2 className="text-xs tracking-widest uppercase text-[#9C7D13] font-normal mb-4">
                   Ver Publicación en
                 </h2>
@@ -234,7 +234,7 @@ export default function EventoDetalle({ evento }) {
 
       {/* Galería de imágenes (opcional) */}
       {evento.galeria && evento.galeria.length > 0 && (
-        <div className="border-t border-black/15 py-12 lg:py-20">
+        <div className="border-t border-accent/60 py-12 lg:py-20">
           <div className="max-w-7xl mx-auto px-6 lg:px-12">
             <h2 className="text-xs tracking-widest uppercase text-[#9C7D13] font-normal mb-8">
               Galería

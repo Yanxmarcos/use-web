@@ -37,9 +37,9 @@ export default function Especialidades() {
   const next = () => setCurrent((c) => (c === especialidades.length - 1 ? 0 : c + 1));
 
   return (
-    <section id="especialidades" className="border-b border-black/15 bg-black text-white">
+    <section id="especialidades" className="border-b border-accent/60 bg-black text-white">
       <div className="grid grid-cols-1 lg:grid-cols-2">
-        <div className="p-8 md:p-12 lg:p-24 flex flex-col justify-center border-b lg:border-b-0 lg:border-r border-white/15 lg:sticky lg:top-0 lg:h-screen">
+        <div className="p-8 md:p-12 lg:p-24 flex flex-col justify-center border-b lg:border-b-0 lg:border-r border-accent/70 lg:sticky lg:top-0 lg:h-screen">
           <div className="text-xs tracking-widest uppercase text-white/50 font-normal mb-8">
             ESPECIALIDADES
           </div>
@@ -52,13 +52,13 @@ export default function Especialidades() {
           <div className="flex gap-4">
             <button
               onClick={prev}
-              className="w-12 h-12 rounded-full border border-white/30 flex items-center justify-center hover:bg-white hover:text-black transition-colors"
+              className="w-12 h-12 rounded-full border border-accent/80 flex items-center justify-center hover:bg-white hover:text-black transition-colors"
             >
               <Icon icon="solar:arrow-left-linear" className="text-xl" style={{ strokeWidth: 1.5 }} />
             </button>
             <button
               onClick={next}
-              className="w-12 h-12 rounded-full border border-white/30 flex items-center justify-center hover:bg-white hover:text-black transition-colors"
+              className="w-12 h-12 rounded-full border border-accent/80 flex items-center justify-center hover:bg-white hover:text-black transition-colors"
             >
               <Icon icon="solar:arrow-right-linear" className="text-xl" style={{ strokeWidth: 1.5 }} />
             </button>
@@ -71,7 +71,7 @@ export default function Especialidades() {
               key={i}
               href={esp.href}
               className={`aspect-square lg:aspect-auto lg:h-[70vh] relative overflow-hidden group ${
-                i < especialidades.length - 1 ? "border-b border-white/15" : ""
+                i < especialidades.length - 1 ? "border-b border-accent/70" : ""
               } ${i !== current ? "hidden lg:block" : ""}`}
             >
               <img

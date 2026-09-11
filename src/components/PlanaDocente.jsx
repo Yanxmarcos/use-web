@@ -2,8 +2,8 @@ import { Icon } from "@iconify/react";
 
 export default function PlanaDocente() {
   return (
-    <section id="docentes" className="border-b border-black/15 flex flex-col">
-      <div className="flex items-center justify-between px-6 lg:px-12 py-8 border-b border-black/15">
+    <section id="docentes" className="border-b border-accent/60 flex flex-col">
+      <div className="flex items-center justify-between px-6 lg:px-12 py-8 border-b border-accent/60">
         <h3 className="text-xl lg:text-2xl font-medium tracking-tight uppercase">Plana Docente</h3>
         <a className="text-sm md:text-base text-black/70 font-normal flex items-center">
           Excelencia académica.
@@ -11,7 +11,7 @@ export default function PlanaDocente() {
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
-        <a className="group border-b md:border-b-0 lg:border-r border-black/15 relative overflow-hidden aspect-[4/5] flex flex-col">
+        <a className="group border-b md:border-b-0 lg:border-r border-accent/60 relative overflow-hidden aspect-[4/5] flex flex-col">
           <img src="/img/docente.jpg" className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" alt="Elephants in Tanzania" />
           <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
           <div className="relative z-10 p-8 flex-1 flex flex-col justify-between text-white">
@@ -23,7 +23,7 @@ export default function PlanaDocente() {
             </div>
           </div>
         </a>
-        <a className="group border-b lg:border-b-0 md:border-r border-black/15 relative overflow-hidden aspect-[4/5] flex flex-col">
+        <a className="group border-b lg:border-b-0 md:border-r border-accent/60 relative overflow-hidden aspect-[4/5] flex flex-col">
           <img src="/img/docente.jpg" className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" alt="Leopard in Botswana" />
           <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
           <div className="relative z-10 p-8 flex-1 flex flex-col justify-between text-white">
@@ -35,7 +35,7 @@ export default function PlanaDocente() {
             </div>
           </div>
         </a>
-        <a className="group border-b md:border-b-0 lg:border-r border-black/15 relative overflow-hidden aspect-[4/5] flex flex-col">
+        <a className="group border-b md:border-b-0 lg:border-r border-accent/60 relative overflow-hidden aspect-[4/5] flex flex-col">
           <img src="/img/docente.jpg" className="absolute inset-0 w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-700" alt="Gorilla in Rwanda" />
           <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
           <div className="relative z-10 p-8 flex-1 flex flex-col justify-between text-white">
@@ -47,7 +47,7 @@ export default function PlanaDocente() {
             </div>
           </div>
         </a>
-        <a className="group border-b md:border-b-0 lg:border-r border-black/15 relative overflow-hidden aspect-[4/5] flex flex-col">
+        <a className="group border-b md:border-b-0 lg:border-r border-accent/60 relative overflow-hidden aspect-[4/5] flex flex-col">
           <img src="/img/docente.jpg" className="absolute inset-0 w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-700" alt="Gorilla in Rwanda" />
           <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
           <div className="relative z-10 p-8 flex-1 flex flex-col justify-between text-white">

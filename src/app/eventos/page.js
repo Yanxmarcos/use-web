@@ -30,7 +30,7 @@ export default async function EventosPage() {
     <div className="min-h-screen">
       <Header />
       
-      <main className="border-b border-black/15">
+      <main className="border-b border-accent/60">
         <div className="px-6 lg:px-12 py-12 lg:py-20">
           <h1 className="text-4xl lg:text-6xl font-medium tracking-tighter uppercase leading-none mb-8">
             EVENTOS ACADÉMICOS
@@ -40,25 +40,25 @@ export default async function EventosPage() {
           </p>
         </div>
 
-        <div className="flex flex-col border-t border-black/15 mb-24">
+        <div className="flex flex-col border-t border-accent/60 mb-24">
           {eventos.map((evento, i) => (
             <a
               key={evento.id}
               href={`/eventos/${evento.id}`}
-              className={`grid grid-cols-1 md:grid-cols-12 group hover:bg-black/5 transition-colors border-b border-black/15`}
+              className={`grid grid-cols-1 md:grid-cols-12 group hover:bg-black/5 transition-colors border-b border-accent/60`}
             >
-              <div className="md:col-span-3 lg:col-span-2 p-6 lg:p-8 flex items-center border-b md:border-b-0 md:border-r border-black/15">
+              <div className="md:col-span-3 lg:col-span-2 p-6 lg:p-8 flex items-center border-b md:border-b-0 md:border-r border-accent/60">
                 <div className="text-xs tracking-widest uppercase text-black/60 font-normal">
                   {formatFecha(evento)}
                 </div>
               </div>
-              <div className="md:col-span-7 lg:col-span-8 p-6 lg:p-8 flex flex-col justify-center border-b md:border-b-0 md:border-r border-black/15">
+              <div className="md:col-span-7 lg:col-span-8 p-6 lg:p-8 flex flex-col justify-center border-b md:border-b-0 md:border-r border-accent/60">
                 <div className="text-xs tracking-widest uppercase text-[#1F651C] font-normal mb-2 lg:mb-3">{evento.tipo}</div>
                 <h2 className="text-xl lg:text-3xl font-medium tracking-tight uppercase group-hover:translate-x-2 transition-transform">{evento.titulo}</h2>
                 <p className="text-sm text-black/70 font-normal mt-3 max-w-2xl">{evento.descripcionCorta}</p>
               </div>
               <div className="md:col-span-2 p-6 lg:p-8 hidden md:flex items-center justify-end">
-                <div className="w-10 h-10 rounded-full border border-black/30 flex items-center justify-center group-hover:bg-black group-hover:text-white transition-colors">
+                <div className="w-10 h-10 rounded-full border border-accent/70 flex items-center justify-center group-hover:bg-black group-hover:text-white transition-colors">
                   <Icon icon="solar:arrow-right-up-linear" className="text-sm" style={{ strokeWidth: 1.5 }} />
                 </div>
               </div>

@@ -34,12 +34,12 @@ export default async function EspecialidadPage({ params }) {
     <div className="min-h-screen">
       <Header />
       
-      <main className="border-b border-black/15">
+      <main className="border-b border-accent/60">
         {/* Hero con imagen y título */}
         <section className="grid grid-cols-1 lg:grid-cols-2">
           {/* Lado izquierdo - Título y descripción */}
-          <div className="p-8 lg:p-16 flex flex-col justify-center border-b lg:border-b-0 lg:border-r border-black/15">
-            <a href="/especialidades" className="inline-flex items-center text-xs tracking-widest uppercase font-normal border-b border-black pb-1 hover:text-[#003398] hover:border-[#003398] transition-colors mb-8 w-fit">
+          <div className="p-8 lg:p-16 flex flex-col justify-center border-b lg:border-b-0 lg:border-r border-accent/60">
+            <a href="/especialidades" className="inline-flex items-center text-xs tracking-widest uppercase font-normal border-b border-accent pb-1 hover:text-[#003398] hover:border-[#003398] transition-colors mb-8 w-fit">
               <Icon icon="solar:arrow-left-linear" className="mr-2 text-sm" style={{ strokeWidth: 1.5 }} />
               Volver a especialidades
             </a>
@@ -92,9 +92,9 @@ export default async function EspecialidadPage({ params }) {
             {/* Estructura placeholder */}
             <div className="space-y-8">
               {/* Semestre 1 */}
-              <div className="border border-black/15 p-6 lg:p-8">
+              <div className="border border-accent/60 p-6 lg:p-8">
                 <div className="flex items-center gap-4 mb-6">
-                  <div className="w-12 h-12 flex items-center justify-center border border-black/20">
+                  <div className="w-12 h-12 flex items-center justify-center border border-accent/70">
                     <span className="text-lg font-medium tracking-tighter">01</span>
                   </div>
                   <div>
@@ -113,9 +113,9 @@ export default async function EspecialidadPage({ params }) {
               </div>
 
               {/* Semestre 2 */}
-              <div className="border border-black/15 p-6 lg:p-8">
+              <div className="border border-accent/60 p-6 lg:p-8">
                 <div className="flex items-center gap-4 mb-6">
-                  <div className="w-12 h-12 flex items-center justify-center border border-black/20">
+                  <div className="w-12 h-12 flex items-center justify-center border border-accent/70">
                     <span className="text-lg font-medium tracking-tighter">02</span>
                   </div>
                   <div>

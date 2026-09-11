@@ -87,7 +87,7 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="border-t border-white/15 pt-8 flex flex-col md:flex-row items-end md:items-center justify-between gap-6 text-[0.65rem] tracking-widest font-normal text-white/40">
+      <div className="border-t border-accent/70 pt-8 flex flex-col md:flex-row items-end md:items-center justify-between gap-6 text-[0.65rem] tracking-widest font-normal text-white/40">
         <div>&copy; {new Date().getFullYear()} Unidad de Segunda Especialidad de la Facultad de Derecho y Ciencias Políticas de la UNT. Todos los derechos reservados.</div>
         <div className="flex gap-6 md:gap-8 flex-wrap relative">
           <button 
@@ -101,7 +101,7 @@ export default function Footer() {
           {showCredits && (
             <div 
               ref={creditsRef}
-              className="absolute bottom-full right-0 mb-2 bg-black border border-white/30 p-3 min-w-[220px] z-50"
+              className="absolute bottom-full right-0 mb-2 bg-black border border-accent/70 p-3 min-w-[220px] z-50"
             >
               <button 
                 onClick={() => setShowCredits(false)}

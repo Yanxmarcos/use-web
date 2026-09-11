@@ -11,7 +11,7 @@ export default function AdmisionPage() {
     <div className="min-h-screen">
       <Header />
       
-      <main className="flex-grow flex flex-col items-center justify-center px-6 lg:px-12 py-20 lg:py-32 border-b border-black/15">
+      <main className="flex-grow flex flex-col items-center justify-center px-6 lg:px-12 py-20 lg:py-32 border-b border-accent/60">
         <div className="max-w-2xl mx-auto text-center">
           <div className="text-xs tracking-widest uppercase text-black/60 font-normal mb-8">
             PROCESO DE ADMISIÓN

@@ -12,7 +12,7 @@ export default function MobileMenu({ isOpen, onClose }) {
         isOpen ? "translate-y-0" : "-translate-y-full"
       }`}
     >
-      <div className="h-20 border-b border-white/10 flex items-center justify-between px-6 lg:px-8">
+      <div className="h-20 border-b border-accent/60 flex items-center justify-between px-6 lg:px-8">
         <div className="text-white">
           <a href="/">
             <img
@@ -41,7 +41,7 @@ export default function MobileMenu({ isOpen, onClose }) {
             <Icon icon="solar:alt-arrow-down-linear" className={`text-3xl transition-transform duration-300 ${espOpen ? "rotate-180" : ""}`} style={{ strokeWidth: 1.5 }} />
           </button>
           <div className={`overflow-hidden transition-all duration-300 ${espOpen ? "max-h-96 mt-4" : "max-h-0"}`}>
-            <div className="flex flex-col gap-3 pl-4 border-l border-white/20">
+            <div className="flex flex-col gap-3 pl-4 border-l border-accent/70">
               <a href="/especialidades/gestion-publica-contrataciones" onClick={onClose} className="text-white/70 text-lg tracking-wider uppercase hover:text-[#003398] transition-colors">
                 Gestión Pública y Contrataciones del Estado
               </a>

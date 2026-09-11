@@ -2,9 +2,9 @@ import { Icon } from "@iconify/react";
 
 export default function Contacto() {
   return (
-    <section id="contacto" className="bg-black text-white border-b border-white/15">
+    <section id="contacto" className="bg-black text-white border-b border-accent/70">
       <div className="grid grid-cols-1 lg:grid-cols-2">
-        <div className="p-8 md:p-12 lg:p-24 flex flex-col justify-center border-b lg:border-b-0 lg:border-r border-white/15">
+        <div className="p-8 md:p-12 lg:p-24 flex flex-col justify-center border-b lg:border-b-0 lg:border-r border-accent/70">
           <Icon icon="solar:letter-linear" className="text-3xl mb-8 text-[#9C7D13]" style={{ strokeWidth: 1.5 }} />
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-medium tracking-tighter uppercase leading-[0.9] mb-6">
             Contáctanos
@@ -14,7 +14,7 @@ export default function Contacto() {
           </p>
 
           <div className="flex flex-col">
-            <a href="tel:+51925405280" className="flex items-center justify-between border-b border-white/30 py-4 group hover:border-white transition-colors">
+            <a href="tel:+51925405280" className="flex items-center justify-between border-b border-accent/70 py-4 group hover:border-accent transition-colors">
               <div className="flex items-center gap-4">
                 <Icon icon="solar:phone-linear" className="text-xl text-[#9C7D13]" style={{ strokeWidth: 1.5 }} />
                 <span className="text-xs tracking-widest uppercase">Teléfono</span>
@@ -25,7 +25,7 @@ export default function Contacto() {
               </div>
             </a>
 
-            <a href="https://wa.me/51925405280" target="_blank" rel="noopener noreferrer" className="flex items-center justify-between border-b border-white/30 py-4 group hover:border-white transition-colors">
+            <a href="https://wa.me/51925405280" target="_blank" rel="noopener noreferrer" className="flex items-center justify-between border-b border-accent/70 py-4 group hover:border-accent transition-colors">
               <div className="flex items-center gap-4">
                 <Icon icon="ic:baseline-whatsapp" className="text-xl text-[#9C7D13]" />
                 <span className="text-xs tracking-widest uppercase">WhatsApp</span>
@@ -36,7 +36,7 @@ export default function Contacto() {
               </div>
             </a>
 
-            <a href="mailto:se.derecho@unitru.edu.pe" className="flex items-center justify-between border-b border-white/30 py-4 group hover:border-white transition-colors">
+            <a href="mailto:se.derecho@unitru.edu.pe" className="flex items-center justify-between border-b border-accent/70 py-4 group hover:border-accent transition-colors">
               <div className="flex items-center gap-4">
                 <Icon icon="solar:mailbox-linear" className="text-xl text-[#9C7D13]" style={{ strokeWidth: 1.5 }} />
                 <span className="text-xs tracking-widest uppercase">Email</span>
@@ -47,7 +47,7 @@ export default function Contacto() {
               </div>
             </a>
 
-            <a href="https://maps.app.goo.gl/QB932KcJ8kimsqzbA" target="_blank" rel="noopener noreferrer" className="flex items-center justify-between border-b border-white/30 py-4 group hover:border-white transition-colors">
+            <a href="https://maps.app.goo.gl/QB932KcJ8kimsqzbA" target="_blank" rel="noopener noreferrer" className="flex items-center justify-between border-b border-accent/70 py-4 group hover:border-accent transition-colors">
               <div className="flex items-center gap-4">
                 <Icon icon="solar:map-point-linear" className="text-xl text-[#9C7D13]" style={{ strokeWidth: 1.5 }} />
                 <span className="text-xs tracking-widest uppercase">Ubicación</span>
@@ -82,7 +82,7 @@ export default function Contacto() {
         </div>
 
         <div className="bg-[#003398] p-12 lg:p-24 flex flex-col justify-center items-start relative overflow-hidden group cursor-pointer text-white">
-          <div className="absolute -right-20 -bottom-20 w-96 h-96 rounded-full border border-white/20 group-hover:scale-110 transition-transform duration-1000 pointer-events-none"></div>
+          <div className="absolute -right-20 -bottom-20 w-96 h-96 rounded-full border border-accent/50 group-hover:scale-110 transition-transform duration-1000 pointer-events-none"></div>
 
           <div className="text-xs tracking-widest uppercase font-normal mb-6">¡Inscríbete y obtén especialidad con los más destacados!</div>
           <a href="/admision">
