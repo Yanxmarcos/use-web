@@ -11,6 +11,8 @@ import Footer from "@/components/Footer";
 import EventModal from "@/components/EventModal";
 import { fetchEventosRecientes } from "@/services/api";
 
+export const dynamic = "force-dynamic";
+
 export default async function Home() {
   const eventosRecientes = await fetchEventosRecientes(3);
   const eventoReciente = eventosRecientes[0];

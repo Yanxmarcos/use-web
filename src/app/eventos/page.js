@@ -3,6 +3,8 @@ import Footer from "@/components/Footer";
 import { fetchEventos } from "@/services/api";
 import { Icon } from "@iconify/react";
 
+export const dynamic = "force-dynamic";
+
 export const metadata = {
   title: "Eventos Académicos | USE",
   description: "Conoce todos los eventos académicos de la Unidad de Segunda Especialidad de la Facultad de Derecho UNT",
