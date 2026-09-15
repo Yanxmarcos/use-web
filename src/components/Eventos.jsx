@@ -35,9 +35,7 @@ export default function Eventos({ eventos }) {
           <a
             key={evento.id}
             href={`/eventos/${evento.id}`}
-            className={`grid grid-cols-1 md:grid-cols-12 group hover:bg-black/5 transition-colors ${
-              i < eventosRecientes.length - 1 ? "border-b border-accent/60" : ""
-            }`}
+            className={`grid grid-cols-1 md:grid-cols-12 group hover:bg-black/5 transition-colors border-b border-accent/60`}
           >
             <div className="md:col-span-3 lg:col-span-2 p-6 lg:p-8 flex items-center border-b md:border-b-0 md:border-r border-accent/60 text-xs tracking-widest uppercase text-black/60 font-normal">
               {formatFecha(evento)}

@@ -25,7 +25,7 @@ export default async function Home() {
       <About />
       <Especialidades />
       <Director />
-      <PlanaDocente />
+      {/* <PlanaDocente /> */}
       <Eventos eventos={eventosRecientes} />
       <FAQ />
       <Contacto />

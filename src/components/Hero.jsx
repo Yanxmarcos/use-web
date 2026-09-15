@@ -5,25 +5,15 @@ export default function Hero() {
     <div className="min-h-screen flex flex-col relative border-b border-accent/60">
       <main className="flex-grow flex flex-col lg:grid lg:grid-cols-12 relative">
         <div className="col-span-5 xl:col-span-5 p-8 lg:p-12 xl:p-16 flex flex-col justify-center relative border-b lg:border-b-0 lg:border-r border-accent/60 z-10 bg-white">
-          <div className="text-xs tracking-widest uppercase mb-12 lg:mb-16 text-black/60 font-normal">
+          <div className="text-xs tracking-widest uppercase mb-8 lg:mb-10 text-black/60 font-normal">
             ¡Obtén especialidad con los más destacados!
           </div>
 
-          <h1 className="text-8xl md:text-7xl lg:text-8xl xl:text-9xl font-medium tracking-tighter uppercase leading-[0.85] mb-8 lg:mb-12 flex flex-col">
-            <span>USE</span>
+          <h1 className="text-[5rem] sm:text-[6rem] md:text-[7rem] lg:text-[8rem] xl:text-[10rem] font-medium tracking-tighter uppercase leading-none mb-4 lg:mb-6">
+            USE
           </h1>
 
-          <div className="absolute right-12 top-1/2 -translate-y-1/2 max-w-[14rem] hidden xl:block">
-            <p className="text-base text-black/80 leading-relaxed font-normal">
-              Unidad de Segunda<br />
-              Especialidad de la<br />
-              Facultad de Derecho y<br />
-              CC. PP. de la Universidad<br />
-              Nacional de Trujillo.
-            </p>
-          </div>
-
-          <p className="text-sm md:text-base text-black/80 leading-relaxed font-normal mb-12 lg:mb-16 xl:hidden max-w-sm">
+          <p className="text-sm md:text-base lg:text-lg text-black/80 leading-relaxed font-normal mb-12 lg:mb-16 max-w-md">
             Unidad de Segunda Especialidad de la Facultad de Derecho y Ciencias Políticas de la Universidad Nacional de Trujillo.
           </p>
 

@@ -111,14 +111,20 @@ export default function Footer() {
               </button>
               <div className="space-y-2 mt-2">
                 <div>
-                  <a href="https://www.linkedin.com/in/yanxmarcos-chan-vasquez/" target="_blank" rel="noopener noreferrer" className="text-white/70 hover:text-white transition-colors">
+                  <a 
+                  // href="https://www.linkedin.com/in/yanxmarcos-chan-vasquez/" 
+                  // target="_blank" 
+                  rel="noopener noreferrer" className="text-white/70 hover:text-white transition-colors">
                     Chan Vasquez Yanxmarcos
                   </a>
                   <div className="text-white/40">yanxmarcoschan@gmail.com</div>
                 </div>
                 <div>
-                  <a href="https://www.linkedin.com/in/eliaser-avila-zamudio/" target="_blank" rel="noopener noreferrer" className="text-white/70 hover:text-white transition-colors">
-                    Avila Zamaudio Eliaser Isai
+                  <a 
+                  // href="https://www.linkedin.com/in/eliaser-avila-zamudio/" 
+                  // target="_blank" 
+                  rel="noopener noreferrer" className="text-white/70 hover:text-white transition-colors">
+                    Avila Zamudio Eliaser Isai
                   </a>
                   <div className="text-white/40">avila.zamudio.bas@gmail.com</div>
                 </div>
