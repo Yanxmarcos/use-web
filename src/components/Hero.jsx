@@ -4,8 +4,8 @@ export default function Hero() {
   return (
     <div className="min-h-screen flex flex-col relative border-b border-accent/60">
       <main className="flex-grow flex flex-col lg:grid lg:grid-cols-12 relative">
-        <div className="col-span-5 xl:col-span-5 p-8 lg:p-12 xl:p-16 flex flex-col justify-center relative border-b lg:border-b-0 lg:border-r border-accent/60 z-10 bg-white">
-          <div className="text-xs tracking-widest uppercase mb-8 lg:mb-10 text-black/60 font-normal">
+        <div className="order-1 lg:order-2 lg:col-span-7 xl:col-span-5 p-8 lg:p-12 xl:p-16 flex flex-col justify-center relative border-b lg:border-b-0 lg:border-r border-accent/60 z-10 bg-white text-[#101828]">
+          <div className="text-xs tracking-widest uppercase mb-8 lg:mb-10 text-black/65 font-normal">
             ¡Obtén especialidad con los más destacados!
           </div>
 
@@ -13,49 +13,49 @@ export default function Hero() {
             USE
           </h1>
 
-          <p className="text-sm md:text-base lg:text-lg text-black/80 leading-relaxed font-normal mb-12 lg:mb-16 max-w-md">
+          <p className="text-sm md:text-base lg:text-lg text-black/75 leading-relaxed font-normal mb-12 lg:mb-16 max-w-md">
             Unidad de Segunda Especialidad de la Facultad de Derecho y Ciencias Políticas de la Universidad Nacional de Trujillo.
           </p>
 
           <div className="mt-auto pt-8 lg:pt-16">
-            <a href="/admision" className="inline-flex items-center text-xs tracking-widest uppercase font-normal border-b border-accent pb-1 hover:text-[#003398] hover:border-[#003398] transition-colors group">
-              Inscribirme<Icon icon="solar:arrow-right-up-linear" className="ml-2 text-base group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" style={{ strokeWidth: 1.5 }} />
+            <a href="/admision" className="inline-flex items-center gap-2 bg-accent text-[#101828] px-6 py-4 text-xs tracking-widest uppercase font-medium hover:bg-primary hover:text-white focus-visible:bg-primary focus-visible:text-white transition-colors group">
+              Inscribirme<Icon icon="solar:arrow-right-up-linear" className="text-base group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" style={{ strokeWidth: 1.5 }} />
             </a>
           </div>
         </div>
 
-        <div className="col-span-7 xl:col-span-5 relative min-h-[50vh] lg:min-h-0 bg-white z-0 overflow-hidden lg:overflow-visible">
-          <div className="absolute inset-0 lg:-left-20 lg:right-0 top-0 bottom-0 lg:hero-curve overflow-hidden">
+        <div className="order-2 lg:order-1 lg:col-span-5 xl:col-span-5 relative min-h-[50vh] lg:min-h-0 bg-black z-0 overflow-hidden lg:border-r border-accent/60 group">
+          <div className="absolute inset-0 overflow-hidden">
             <img
               src="/img/hero.webp"
-              alt="Giraffe in African savannah"
-              className="w-full h-full object-cover object-[60%_center] lg:object-center transform scale-105 hover:scale-100 transition-transform duration-1000"
+              alt="Estatuilla de la Justicia sostenida por una persona"
+              className="w-full h-full object-cover object-[60%_center] lg:object-center scale-105 group-hover:scale-100 transition-transform duration-1000"
             />
-            <div className="absolute inset-0 bg-gradient-to-r from-black/5 to-transparent"></div>
+            <div className="absolute inset-0 bg-gradient-to-t from-primary/20 via-transparent to-transparent"></div>
           </div>
         </div>
 
-        <div className="hidden xl:flex col-span-2 flex-col border-l border-accent/60 bg-white z-10">
-          <a href="/especialidades/gestion-publica-contrataciones" className="flex-1 border-b border-accent/60 p-8 flex flex-col justify-center group hover:bg-black/5 transition-colors">
-            <div className="text-xs mb-3 text-black/50 font-normal">01</div>
+        <div className="hidden xl:flex xl:order-3 col-span-2 flex-col border-l border-accent bg-white z-10">
+          <a href="/especialidades/gestion-publica-contrataciones" className="flex-1 border-b border-accent/60 bg-white text-[#101828] p-8 flex flex-col justify-center group hover:bg-accent focus-visible:bg-accent transition-colors">
+            <div className="text-xs mb-3 text-[#101828]/70 group-hover:text-[#101828]/80 font-normal transition-colors">01</div>
             <div className="text-sm tracking-widest uppercase font-normal leading-relaxed group-hover:translate-x-2 transition-transform">
               Gestión pública y Contrataciones del estado
             </div>
           </a>
-          <a href="/especialidades/derecho-constitucional-ddhh" className="flex-1 border-b border-accent/60 p-8 flex flex-col justify-center group hover:bg-black/5 transition-colors">
-            <div className="text-xs mb-3 text-black/50 font-normal">02</div>
+          <a href="/especialidades/derecho-constitucional-ddhh" className="flex-1 border-b border-accent/60 bg-white text-[#101828] p-8 flex flex-col justify-center group hover:bg-accent focus-visible:bg-accent transition-colors">
+            <div className="text-xs mb-3 text-[#101828]/70 group-hover:text-[#101828]/80 font-normal transition-colors">02</div>
             <div className="text-sm tracking-widest uppercase font-normal leading-relaxed group-hover:translate-x-2 transition-transform">
               Derecho Constitucional y Derechos Humanos
             </div>
           </a>
-          <a href="/especialidades/derecho-penal-criminalidad-organizada" className="flex-1 border-b border-accent/60 p-8 flex flex-col justify-center group hover:bg-black/5 transition-colors">
-            <div className="text-xs mb-3 text-black/50 font-normal">03</div>
+          <a href="/especialidades/derecho-penal-criminalidad-organizada" className="flex-1 border-b border-accent/60 bg-white text-[#101828] p-8 flex flex-col justify-center group hover:bg-accent focus-visible:bg-accent transition-colors">
+            <div className="text-xs mb-3 text-[#101828]/70 group-hover:text-[#101828]/80 font-normal transition-colors">03</div>
             <div className="text-sm tracking-widest uppercase font-normal leading-relaxed group-hover:translate-x-2 transition-transform">
               Derecho Penal y Criminalidad Organizada
             </div>
           </a>
-          <a href="/especialidades" className="flex-1 p-8 flex flex-col justify-end group bg-accent text-white hover:bg-[#80660f] transition-colors relative overflow-hidden">
-            <div className="text-xs mb-3 text-white/70 font-normal">+</div>
+          <a href="/especialidades" className="flex-1 p-8 flex flex-col justify-end group bg-accent text-[#101828] hover:bg-[#8C7011] hover:text-white focus-visible:bg-[#8C7011] focus-visible:text-white transition-colors relative overflow-hidden">
+            <div className="text-xs mb-3 text-[#101828]/70 group-hover:text-white/80 group-focus-visible:text-white/80 font-normal transition-colors">+</div>
             <div className="text-sm tracking-widest uppercase font-normal leading-relaxed">VER MÁS<br />ESPECIALIDADES</div>
             <div className="absolute bottom-8 right-8 opacity-0 group-hover:opacity-100 transition-opacity">
               <Icon icon="solar:arrow-right-linear" className="text-xl" style={{ strokeWidth: 1.5 }} />
@@ -87,12 +87,14 @@ export default function Hero() {
           </div>
         </div>
 
-        <div className="col-span-12 lg:col-span-4 p-8 flex items-center gap-6 lg:gap-8 lg:border-r border-accent/60 bg-white group cursor-pointer hover:bg-black/5 transition-colors">
-          <div className="text-6xl lg:text-7xl xl:text-8xl font-medium tracking-tighter leading-none text-black/90">04</div>
-          <div>
+        <div className="col-span-12 lg:col-span-4 min-h-48 p-8 flex items-center gap-6 lg:gap-8 lg:border-r border-accent/60 bg-black text-white group relative overflow-hidden">
+          <img src="/img/hero3.webp" alt="" aria-hidden="true" className="absolute inset-0 w-full h-full object-cover opacity-45 mix-blend-luminosity group-hover:scale-105 transition-transform duration-700 pointer-events-none" />
+          <div className="absolute inset-0 bg-black/20 pointer-events-none"></div>
+          <div className="relative z-10 text-6xl lg:text-7xl xl:text-8xl font-medium tracking-tighter leading-none text-white/90">04</div>
+          <div className="relative z-10">
             <div className="text-xl lg:text-2xl font-medium tracking-tight uppercase mb-2">Especialidades</div>
-            <div className="text-sm md:text-base text-black/70 mb-4 font-normal">Programas diseñados para profesionales que buscan excelencia.</div>
-            <div className="flex items-center text-[0.65rem] tracking-[0.2em] uppercase font-normal border-b border-accent pb-0.5 w-fit group-hover:border-[#003398] hover:text-[#003398] transition-colors">
+            <div className="text-sm md:text-base text-white/80 mb-4 font-normal">Programas diseñados para profesionales que buscan excelencia.</div>
+            <div className="flex items-center text-[0.65rem] tracking-[0.2em] uppercase font-normal border-b border-accent pb-0.5 w-fit group-hover:text-accent transition-colors">
               <a href="/especialidades">Ver especialidades</a> <Icon icon="solar:arrow-right-up-linear" className="ml-2 text-sm" style={{ strokeWidth: 1.5 }} />
             </div>
           </div>

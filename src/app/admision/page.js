@@ -17,7 +17,7 @@ export default function AdmisionPage() {
             PROCESO DE ADMISIÓN
           </div>
           
-          <h1 className="text-4xl md:text-6xl lg:text-6xl font-medium tracking-tighter uppercase leading-none mb-12 text-[#9C7D13]">
+          <h1 className="text-4xl md:text-6xl lg:text-6xl font-medium tracking-tighter uppercase leading-none mb-12 text-accent">
             PRÓXIMAMENTE
           </h1>
           

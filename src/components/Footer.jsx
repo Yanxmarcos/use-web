@@ -50,7 +50,7 @@ export default function Footer() {
         </div>
 
         <div className="lg:col-span-2 lg:col-start-7 flex flex-col gap-4">
-          <div className="text-[0.65rem] tracking-[0.2em] uppercase text-[#9C7D13] font-normal mb-2 lg:mb-4">Navegación</div>
+          <div className="text-[0.65rem] tracking-[0.2em] uppercase text-accent font-normal mb-2 lg:mb-4">Navegación</div>
           <a href="/" className="text-xs md:text-sm font-normal uppercase tracking-wider hover:text-white transition-colors text-white/70">Inicio</a>
           <a href="/admision" className="text-xs md:text-sm font-normal uppercase tracking-wider hover:text-white transition-colors text-white/70">Admisión</a>
           <a href="/eventos" className="text-xs md:text-sm font-normal uppercase tracking-wider hover:text-white transition-colors text-white/70">Eventos</a>
@@ -59,7 +59,7 @@ export default function Footer() {
         </div>
 
         <div className="lg:col-span-2 flex flex-col gap-4">
-          <div className="text-[0.65rem] tracking-[0.2em] uppercase text-[#9C7D13] font-normal mb-2 lg:mb-4">Información</div>
+          <div className="text-[0.65rem] tracking-[0.2em] uppercase text-accent font-normal mb-2 lg:mb-4">Información</div>
           <a href="/#about" className="text-xs md:text-sm font-normal uppercase tracking-wider hover:text-white transition-colors text-white/70">Acerca de</a>
           <a href="/#director" className="text-xs md:text-sm font-normal uppercase tracking-wider hover:text-white transition-colors text-white/70">Autoridad</a>
           <a href="#" className="text-xs md:text-sm font-normal uppercase tracking-wider hover:text-white transition-colors text-white/70">Docentes</a>
@@ -67,7 +67,7 @@ export default function Footer() {
         </div>
 
         <div className="lg:col-span-2 flex flex-col gap-4">
-          <div className="text-[0.65rem] tracking-[0.2em] uppercase text-[#9C7D13] font-normal mb-2 lg:mb-4">Contacto</div>
+          <div className="text-[0.65rem] tracking-[0.2em] uppercase text-accent font-normal mb-2 lg:mb-4">Contacto</div>
           <a href="mailto:se.derecho@unitru.edu.pe" className="text-xs md:text-sm font-normal hover:text-white transition-colors text-white/70">se.derecho@unitru.edu.pe</a>
           <a href="tel:+51925405280" className="text-xs md:text-sm font-normal hover:text-white transition-colors text-white/70">+51 925 405 280</a>
           <div className="flex gap-4 mt-4">

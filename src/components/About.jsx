@@ -1,7 +1,7 @@
 export default function About() {
   return (
-    <section id="about" className="border-b border-accent/60 py-20 lg:py-40 px-6 lg:px-12 relative overflow-hidden">
-      <div className="absolute left-1/2 top-0 bottom-0 w-[1px] bg-black/10 hidden lg:block"></div>
+    <section id="about" className="border-b border-accent/60 bg-[#F0F5FF] py-20 lg:py-40 px-6 lg:px-12 relative overflow-hidden">
+      <div className="absolute left-1/2 top-0 bottom-0 w-[1px] bg-primary/15 hidden lg:block"></div>
 
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8">
         <div className="lg:col-span-5 flex flex-col justify-between">

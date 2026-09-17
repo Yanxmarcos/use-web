@@ -5,7 +5,7 @@
   --color-foreground: #000000;
   --color-primary: #003398;
   --color-secondary: #1F651C;
-  --color-accent: #9C7D13;
+  --color-accent: #AB8915;
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
@@ -17,16 +17,6 @@ html {
 ::-webkit-scrollbar {
   width: 0;
   background: transparent;
-}
-
-.hero-curve {
-  clip-path: ellipse(120% 100% at 120% 50%);
-}
-
-@media (max-width: 1024px) {
-  .hero-curve {
-    clip-path: ellipse(100% 120% at 50% 120%);
-  }
 }
 
 body {

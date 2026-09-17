@@ -24,7 +24,7 @@ export const especialidades = [
     imagen: "/img/special/3.webp",
     descripcionCorta: "Capacita en el ámbito del derecho penal y la investigación de la criminalidad organizada.",
     descripcionLarga: "Analizar las normas que definen los delitos y las penas, así como los principios generales del Derecho Penal, en un esfuerzo por fortalecer la capacidad de nuestros estudiantes para enfrentar y resolver los desafíos que impone la criminalidad organizada, contribuyendo efectivamente a la seguridad y justicia en diversos contextos. Mediante un enfoque interdisciplinario, permite una visión más amplia y detallada de los problemas legales contemporáneos, garantizando una formación integral y de vanguardia, que responda a las necesidades del campo del derecho.",
-    color: "#9C7D13"
+    color: "#AB8915"
   },
   {
     id: "investigacion-criminal",

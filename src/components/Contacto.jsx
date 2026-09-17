@@ -5,7 +5,7 @@ export default function Contacto() {
     <section id="contacto" className="bg-black text-white border-b border-accent/70">
       <div className="grid grid-cols-1 lg:grid-cols-2">
         <div className="p-8 md:p-12 lg:p-24 flex flex-col justify-center border-b lg:border-b-0 lg:border-r border-accent/70">
-          <Icon icon="solar:letter-linear" className="text-3xl mb-8 text-[#9C7D13]" style={{ strokeWidth: 1.5 }} />
+          <Icon icon="solar:letter-linear" className="text-3xl mb-8 text-accent" style={{ strokeWidth: 1.5 }} />
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-medium tracking-tighter uppercase leading-[0.9] mb-6">
             Contáctanos
           </h2>
@@ -16,7 +16,7 @@ export default function Contacto() {
           <div className="flex flex-col">
             <a href="tel:+51925405280" className="flex items-center justify-between border-b border-accent/70 py-4 group hover:border-accent transition-colors">
               <div className="flex items-center gap-4">
-                <Icon icon="solar:phone-linear" className="text-xl text-[#9C7D13]" style={{ strokeWidth: 1.5 }} />
+                <Icon icon="solar:phone-linear" className="text-xl text-accent" style={{ strokeWidth: 1.5 }} />
                 <span className="text-xs tracking-widest uppercase">Teléfono</span>
               </div>
               <div className="flex items-center gap-3">
@@ -27,7 +27,7 @@ export default function Contacto() {
 
             <a href="https://wa.me/51925405280" target="_blank" rel="noopener noreferrer" className="flex items-center justify-between border-b border-accent/70 py-4 group hover:border-accent transition-colors">
               <div className="flex items-center gap-4">
-                <Icon icon="ic:baseline-whatsapp" className="text-xl text-[#9C7D13]" />
+                <Icon icon="ic:baseline-whatsapp" className="text-xl text-accent" />
                 <span className="text-xs tracking-widest uppercase">WhatsApp</span>
               </div>
               <div className="flex items-center gap-3">
@@ -38,7 +38,7 @@ export default function Contacto() {
 
             <a href="mailto:se.derecho@unitru.edu.pe" className="flex items-center justify-between border-b border-accent/70 py-4 group hover:border-accent transition-colors">
               <div className="flex items-center gap-4">
-                <Icon icon="solar:mailbox-linear" className="text-xl text-[#9C7D13]" style={{ strokeWidth: 1.5 }} />
+                <Icon icon="solar:mailbox-linear" className="text-xl text-accent" style={{ strokeWidth: 1.5 }} />
                 <span className="text-xs tracking-widest uppercase">Email</span>
               </div>
               <div className="flex items-center gap-3">
@@ -49,7 +49,7 @@ export default function Contacto() {
 
             <a href="https://maps.app.goo.gl/QB932KcJ8kimsqzbA" target="_blank" rel="noopener noreferrer" className="flex items-center justify-between border-b border-accent/70 py-4 group hover:border-accent transition-colors">
               <div className="flex items-center gap-4">
-                <Icon icon="solar:map-point-linear" className="text-xl text-[#9C7D13]" style={{ strokeWidth: 1.5 }} />
+                <Icon icon="solar:map-point-linear" className="text-xl text-accent" style={{ strokeWidth: 1.5 }} />
                 <span className="text-xs tracking-widest uppercase">Ubicación</span>
               </div>
               <div className="flex items-center gap-3">
@@ -60,7 +60,7 @@ export default function Contacto() {
 
             <div className="flex items-center justify-between py-4">
               <div className="flex items-center gap-4">
-                <Icon icon="solar:globe-linear" className="text-xl text-[#9C7D13]" style={{ strokeWidth: 1.5 }} />
+                <Icon icon="solar:globe-linear" className="text-xl text-accent" style={{ strokeWidth: 1.5 }} />
                 <span className="text-xs tracking-widest uppercase">Redes Sociales</span>
               </div>
               <div className="flex items-center gap-4">

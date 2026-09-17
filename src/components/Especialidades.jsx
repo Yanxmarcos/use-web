@@ -80,7 +80,7 @@ export default function Especialidades() {
                 alt={esp.title}
               />
               <div className="absolute bottom-0 left-0 p-8 lg:p-12 bg-gradient-to-t from-black/80 to-transparent w-full">
-                <div className="text-xs tracking-widest uppercase font-normal mb-2 text-[#9C7D13]">{esp.num}</div>
+                <div className="text-xs tracking-widest uppercase font-normal mb-2 text-accent">{esp.num}</div>
                 <h3 className="text-2xl lg:text-3xl font-medium tracking-tight uppercase">{esp.title}</h3>
               </div>
             </a>

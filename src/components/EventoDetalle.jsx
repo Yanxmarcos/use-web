@@ -31,7 +31,7 @@ export default function EventoDetalle({ evento }) {
             Volver a eventos
           </a>
           <div className="flex flex-wrap items-center gap-4 mb-6">
-            <span className="text-xs tracking-widest uppercase font-normal bg-[#9C7D13] text-white px-3 py-1">
+            <span className="text-xs tracking-widest uppercase font-normal bg-accent text-[#101828] px-3 py-1">
               {evento.tipo}
             </span>
             <span className="text-xs tracking-widest uppercase font-normal text-black/60">
@@ -51,7 +51,7 @@ export default function EventoDetalle({ evento }) {
           <div className="lg:col-span-8">
             {/* Descripción */}
             <div className="mb-12">
-              <h2 className="text-xs tracking-widest uppercase text-[#9C7D13] font-normal mb-6">
+              <h2 className="text-xs tracking-widest uppercase text-accent font-normal mb-6">
                 Descripción
               </h2>
               <p className="text-base md:text-lg text-black/80 font-normal leading-relaxed mb-6">
@@ -59,7 +59,7 @@ export default function EventoDetalle({ evento }) {
               </p>
               {evento.resolucion && (
                 <div className="flex items-center gap-3 text-sm text-black/60">
-                  <Icon icon="solar:document-text-linear" className="w-5 h-5 flex-shrink-0 text-[#9C7D13]" style={{ strokeWidth: 1.5 }} />
+                  <Icon icon="solar:document-text-linear" className="w-5 h-5 flex-shrink-0 text-accent" style={{ strokeWidth: 1.5 }} />
                   <span>{evento.resolucion}</span>
                 </div>
               )}
@@ -67,7 +67,7 @@ export default function EventoDetalle({ evento }) {
 
             {/* Programa */}
             <div className="mb-12">
-              <h2 className="text-xs tracking-widest uppercase text-[#9C7D13] font-normal mb-6">
+              <h2 className="text-xs tracking-widest uppercase text-accent font-normal mb-6">
                 Programa y Ponentes
               </h2>
               <div className="space-y-6">
@@ -80,7 +80,7 @@ export default function EventoDetalle({ evento }) {
                       {item.tema}
                     </h3>
                     <div className="flex items-center gap-2 text-sm text-black/70">
-                      <Icon icon="solar:microphone-linear" className="w-4 h-4 flex-shrink-0 text-[#9C7D13]" style={{ strokeWidth: 1.5 }} />
+                      <Icon icon="solar:microphone-linear" className="w-4 h-4 flex-shrink-0 text-accent" style={{ strokeWidth: 1.5 }} />
                       <span>{item.ponente}</span>
                     </div>
                   </div>
@@ -89,7 +89,7 @@ export default function EventoDetalle({ evento }) {
               {/* Posters */}
               {posters.length > 0 && (
                 <div className="mb-8 mt-8">
-                  <h2 className="text-xs tracking-widest uppercase text-[#9C7D13] font-normal mb-4">
+                  <h2 className="text-xs tracking-widest uppercase text-accent font-normal mb-4">
                     Publicación
                   </h2>
                   <div className={`grid gap-4 ${posters.length === 1 ? 'grid-cols-1' : posters.length === 2 ? 'grid-cols-2' : 'grid-cols-2'}`}>
@@ -112,13 +112,13 @@ export default function EventoDetalle({ evento }) {
           <div className="lg:col-span-4">
             {/* Panel de detalles */}
             <div className="bg-black text-white p-8 lg:p-10 mb-8">
-              <h2 className="text-xs tracking-widest uppercase text-[#9C7D13] font-normal mb-8">
+              <h2 className="text-xs tracking-widest uppercase text-accent font-normal mb-8">
                 Detalles del Evento
               </h2>
               
               <div className="space-y-6">
                 <div className="flex items-start gap-4">
-                  <Icon icon="solar:calendar-linear" className="w-5 h-5 flex-shrink-0 text-[#9C7D13] mt-1" style={{ strokeWidth: 1.5 }} />
+                  <Icon icon="solar:calendar-linear" className="w-5 h-5 flex-shrink-0 text-accent mt-1" style={{ strokeWidth: 1.5 }} />
                   <div>
                     <div className="text-xs tracking-widest uppercase text-white/60 mb-1">Fechas</div>
                     <div className="text-sm">{evento.detalles.fechas}</div>
@@ -126,7 +126,7 @@ export default function EventoDetalle({ evento }) {
                 </div>
 
                 <div className="flex items-start gap-4">
-                  <Icon icon="solar:clock-circle-linear" className="w-5 h-5 flex-shrink-0 text-[#9C7D13] mt-1" style={{ strokeWidth: 1.5 }} />
+                  <Icon icon="solar:clock-circle-linear" className="w-5 h-5 flex-shrink-0 text-accent mt-1" style={{ strokeWidth: 1.5 }} />
                   <div>
                     <div className="text-xs tracking-widest uppercase text-white/60 mb-1">Horario</div>
                     <div className="text-sm">{evento.detalles.horario}</div>
@@ -134,7 +134,7 @@ export default function EventoDetalle({ evento }) {
                 </div>
 
                 <div className="flex items-start gap-4">
-                  <Icon icon="solar:smartphone-linear" className="w-5 h-5 flex-shrink-0 text-[#9C7D13] mt-1" style={{ strokeWidth: 1.5 }} />
+                  <Icon icon="solar:smartphone-linear" className="w-5 h-5 flex-shrink-0 text-accent mt-1" style={{ strokeWidth: 1.5 }} />
                   <div>
                     <div className="text-xs tracking-widest uppercase text-white/60 mb-1">Modalidad</div>
                     <div className="text-sm">{evento.detalles.modalidad}</div>
@@ -142,7 +142,7 @@ export default function EventoDetalle({ evento }) {
                 </div>
 
                 <div className="flex items-start gap-4">
-                  <Icon icon="solar:medal-star-linear" className="w-5 h-5 flex-shrink-0 text-[#9C7D13] mt-1" style={{ strokeWidth: 1.5 }} />
+                  <Icon icon="solar:medal-star-linear" className="w-5 h-5 flex-shrink-0 text-accent mt-1" style={{ strokeWidth: 1.5 }} />
                   <div>
                     <div className="text-xs tracking-widest uppercase text-white/60 mb-1">Certificación</div>
                     <div className="text-sm">{evento.detalles.certificacion}</div>
@@ -150,7 +150,7 @@ export default function EventoDetalle({ evento }) {
                 </div>
 
                 <div className="flex items-start gap-4">
-                  <Icon icon="solar:wallet-money-linear" className="w-5 h-5 flex-shrink-0 text-[#9C7D13] mt-1" style={{ strokeWidth: 1.5 }} />
+                  <Icon icon="solar:wallet-money-linear" className="w-5 h-5 flex-shrink-0 text-accent mt-1" style={{ strokeWidth: 1.5 }} />
                   <div>
                     <div className="text-xs tracking-widest uppercase text-white/60 mb-1">Inversión</div>
                     <div className="text-sm">{evento.detalles.inversion}</div>
@@ -185,7 +185,7 @@ export default function EventoDetalle({ evento }) {
             {/* Redes Sociales */}
             {tieneRedes && (
               <div className="border border-accent/60 p-6">
-                <h2 className="text-xs tracking-widest uppercase text-[#9C7D13] font-normal mb-4">
+                <h2 className="text-xs tracking-widest uppercase text-accent font-normal mb-4">
                   Ver Publicación en
                 </h2>
                 <div className="space-y-3">
@@ -236,7 +236,7 @@ export default function EventoDetalle({ evento }) {
       {evento.galeria && evento.galeria.length > 0 && (
         <div className="border-t border-accent/60 py-12 lg:py-20">
           <div className="max-w-7xl mx-auto px-6 lg:px-12">
-            <h2 className="text-xs tracking-widest uppercase text-[#9C7D13] font-normal mb-8">
+            <h2 className="text-xs tracking-widest uppercase text-accent font-normal mb-8">
               Galería
             </h2>
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">

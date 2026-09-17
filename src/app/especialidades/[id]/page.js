@@ -79,7 +79,7 @@ export default async function EspecialidadPage({ params }) {
             {/* Próximamente */}
             <div className="bg-black text-white p-8 lg:p-12 mb-12">
               <div className="flex items-center gap-4 mb-4">
-                <Icon icon="solar:calendar-bold" className="text-2xl" style={{ color: "#9C7D13" }} />
+                <Icon icon="solar:calendar-bold" className="text-2xl text-accent" />
                 <span className="text-xs tracking-widest uppercase font-normal">
                   Próximamente
                 </span>
@@ -136,7 +136,7 @@ export default async function EspecialidadPage({ params }) {
 
             {/* Nota */}
             <div className="mt-8 flex items-start gap-3 text-sm text-black/60">
-              <Icon icon="solar:info-circle-linear" className="text-[#9C7D13] mt-0.5" style={{ strokeWidth: 1.5 }} />
+              <Icon icon="solar:info-circle-linear" className="text-accent mt-0.5" style={{ strokeWidth: 1.5 }} />
               <span>
                 El plan de estudios está sujeto a cambios. Las materias y créditos serán confirmados por la coordinación de la especialidad.
               </span>

@@ -30,7 +30,7 @@ export default function FAQ() {
   };
 
   return (
-    <section id="faq" className="border-b border-accent/60 py-20 lg:py-32 px-6 lg:px-12 flex flex-col lg:flex-row gap-12 lg:gap-16">
+    <section id="faq" className="border-b border-accent/60 bg-[#F0F5FF] py-20 lg:py-32 px-6 lg:px-12 flex flex-col lg:flex-row gap-12 lg:gap-16">
       <div className="lg:w-1/3">
         <h2 className="text-4xl lg:text-5xl font-medium tracking-tighter uppercase mb-6 leading-none">Preguntas<br />Frecuentes.</h2>
         <p className="text-sm md:text-base text-black/70 font-normal mb-8">Si no encuentras una respuesta a tu duda puedes contactarnos directamente.</p>

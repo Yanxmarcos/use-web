@@ -20,7 +20,7 @@ export default function Eventos({ eventos }) {
   };
 
   return (
-    <section id="eventos" className="border-b border-accent/60 py-20 lg:py-32">
+    <section id="eventos" className="border-b border-accent/60 bg-[#FBF7EA] py-20 lg:py-32">
       <div className="px-6 lg:px-12 mb-12 flex justify-between items-end">
         <h2 className="text-4xl lg:text-6xl font-medium tracking-tighter uppercase leading-none">
           EVENTOS ACADÉMICOS
@@ -35,7 +35,7 @@ export default function Eventos({ eventos }) {
           <a
             key={evento.id}
             href={`/eventos/${evento.id}`}
-            className={`grid grid-cols-1 md:grid-cols-12 group hover:bg-black/5 transition-colors border-b border-accent/60`}
+            className={`grid grid-cols-1 md:grid-cols-12 group hover:bg-accent/10 transition-colors border-b border-accent/60`}
           >
             <div className="md:col-span-3 lg:col-span-2 p-6 lg:p-8 flex items-center border-b md:border-b-0 md:border-r border-accent/60 text-xs tracking-widest uppercase text-black/60 font-normal">
               {formatFecha(evento)}
@@ -45,7 +45,7 @@ export default function Eventos({ eventos }) {
               <h3 className="text-xl lg:text-3xl font-medium tracking-tight uppercase group-hover:translate-x-2 transition-transform">{evento.titulo}</h3>
             </div>
             <div className="md:col-span-2 p-6 lg:p-8 hidden md:flex items-center justify-end">
-              <div className="w-10 h-10 rounded-full border border-accent/70 flex items-center justify-center group-hover:bg-black group-hover:text-white transition-colors">
+              <div className="w-10 h-10 rounded-full border border-accent/70 flex items-center justify-center group-hover:bg-primary group-hover:text-white transition-colors">
                 <Icon icon="solar:arrow-right-up-linear" className="text-sm" style={{ strokeWidth: 1.5 }} />
               </div>
             </div>
