@@ -32,16 +32,16 @@ export default function Header() {
         </div>
 
         <nav className="hidden lg:grid lg:grid-cols-4 col-span-5 xl:col-span-6 text-xs uppercase tracking-[0.15em] font-normal text-white">
-          <a href="/" className="flex items-center justify-center border-r border-accent hover:bg-accent hover:text-[#101828] focus-visible:bg-accent focus-visible:text-[#101828] transition-colors">Inicio</a>
-          <a href="/admision" className="flex items-center justify-center border-r border-accent hover:bg-accent hover:text-[#101828] focus-visible:bg-accent focus-visible:text-[#101828] transition-colors">Admisión</a>
-          <a href="/eventos" className="flex items-center justify-center border-r border-accent hover:bg-accent hover:text-[#101828] focus-visible:bg-accent focus-visible:text-[#101828] transition-colors">Eventos</a>
-          <a href="/contacto" className="flex items-center justify-center border-r border-accent hover:bg-accent hover:text-[#101828] focus-visible:bg-accent focus-visible:text-[#101828] transition-colors">Contacto</a>
+          <a href="/" className="flex items-center justify-center hover:bg-accent hover:text-[#101828] focus-visible:bg-accent focus-visible:text-[#101828] transition-colors">Inicio</a>
+          <a href="/admision" className="flex items-center justify-center hover:bg-accent hover:text-[#101828] focus-visible:bg-accent focus-visible:text-[#101828] transition-colors">Admisión</a>
+          <a href="/eventos" className="flex items-center justify-center hover:bg-accent hover:text-[#101828] focus-visible:bg-accent focus-visible:text-[#101828] transition-colors">Eventos</a>
+          <a href="/contacto" className="flex items-center justify-center hover:bg-accent hover:text-[#101828] focus-visible:bg-accent focus-visible:text-[#101828] transition-colors">Contacto</a>
         </nav>
 
         <div className="hidden lg:flex col-span-4 xl:col-span-3">
-          <div className="w-1/2 flex items-center justify-center bg-[#00266F] text-white text-xs uppercase tracking-widest hover:bg-accent hover:text-[#101828] focus-within:bg-accent focus-within:text-[#101828] transition-colors relative group border-r border-accent">
+          <div className="w-1/2 flex items-center justify-center bg-[#003398] text-white text-xs uppercase tracking-widest hover:bg-accent hover:text-[#101828] focus-within:bg-accent focus-within:text-[#101828] transition-colors relative group border-r border-accent">
             <a href="/especialidades" className="w-full h-full flex items-center justify-center px-3">Especialidades</a>
-            <div className="absolute top-full left-0 w-[320px] bg-[#00266F] text-white border-t border-accent hidden group-hover:block group-focus-within:block z-50">
+            <div className="absolute top-full left-0 w-[320px] bg-[#003398] text-white border-t border-accent hidden group-hover:block group-focus-within:block z-50">
               <a href="/especialidades/gestion-publica-contrataciones" className="block px-5 py-3.5 text-left text-[0.7rem] tracking-wider uppercase hover:bg-accent hover:text-[#101828] transition-colors border-b border-accent/70">
                 Gestión Pública y Contrataciones del Estado
               </a>

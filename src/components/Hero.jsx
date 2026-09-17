@@ -24,7 +24,7 @@ export default function Hero() {
           </div>
         </div>
 
-        <div className="order-2 lg:order-1 lg:col-span-5 xl:col-span-5 relative min-h-[50vh] lg:min-h-0 bg-black z-0 overflow-hidden lg:border-r border-accent/60 group">
+        <div className="order-2 lg:order-1 lg:col-span-5 xl:col-span-5 relative min-h-[50vh] lg:min-h-0 bg-black z-0 overflow-hidden lg:border-r border-accent group">
           <div className="absolute inset-0 overflow-hidden">
             <img
               src="/img/hero.webp"
@@ -36,19 +36,19 @@ export default function Hero() {
         </div>
 
         <div className="hidden xl:flex xl:order-3 col-span-2 flex-col border-l border-accent bg-white z-10">
-          <a href="/especialidades/gestion-publica-contrataciones" className="flex-1 border-b border-accent/60 bg-white text-[#101828] p-8 flex flex-col justify-center group hover:bg-accent focus-visible:bg-accent transition-colors">
+          <a href="/especialidades/gestion-publica-contrataciones" className="flex-1 border-b-2 border-accent/60 bg-white text-[#101828] p-8 flex flex-col justify-center group hover:bg-accent focus-visible:bg-accent transition-colors">
             <div className="text-xs mb-3 text-[#101828]/70 group-hover:text-[#101828]/80 font-normal transition-colors">01</div>
             <div className="text-sm tracking-widest uppercase font-normal leading-relaxed group-hover:translate-x-2 transition-transform">
               Gestión pública y Contrataciones del estado
             </div>
           </a>
-          <a href="/especialidades/derecho-constitucional-ddhh" className="flex-1 border-b border-accent/60 bg-white text-[#101828] p-8 flex flex-col justify-center group hover:bg-accent focus-visible:bg-accent transition-colors">
+          <a href="/especialidades/derecho-constitucional-ddhh" className="flex-1 border-b-2 border-accent/60 bg-white text-[#101828] p-8 flex flex-col justify-center group hover:bg-accent focus-visible:bg-accent transition-colors">
             <div className="text-xs mb-3 text-[#101828]/70 group-hover:text-[#101828]/80 font-normal transition-colors">02</div>
             <div className="text-sm tracking-widest uppercase font-normal leading-relaxed group-hover:translate-x-2 transition-transform">
               Derecho Constitucional y Derechos Humanos
             </div>
           </a>
-          <a href="/especialidades/derecho-penal-criminalidad-organizada" className="flex-1 border-b border-accent/60 bg-white text-[#101828] p-8 flex flex-col justify-center group hover:bg-accent focus-visible:bg-accent transition-colors">
+          <a href="/especialidades/derecho-penal-criminalidad-organizada" className="flex-1 border-b-2 border-accent/60 bg-white text-[#101828] p-8 flex flex-col justify-center group hover:bg-accent focus-visible:bg-accent transition-colors">
             <div className="text-xs mb-3 text-[#101828]/70 group-hover:text-[#101828]/80 font-normal transition-colors">03</div>
             <div className="text-sm tracking-widest uppercase font-normal leading-relaxed group-hover:translate-x-2 transition-transform">
               Derecho Penal y Criminalidad Organizada

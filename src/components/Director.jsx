@@ -12,7 +12,7 @@ export default function Director() {
         </p>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 border-t border-accent/60">
+      <div className="grid grid-cols-1 md:grid-cols-3 border-t border-b border-accent/60">
         <div className="md:col-span-2 border-b md:border-b-0 md:border-r border-accent/60 p-8 lg:p-12 group">
           <div className="aspect-[3/4] md:aspect-[16/9] mb-8 overflow-hidden">
             <img src="/img/carlos-vasquez-boyer.webp" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" alt="Director" />
