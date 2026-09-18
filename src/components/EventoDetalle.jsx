@@ -1,4 +1,5 @@
 import { Icon } from "@iconify/react";
+import { getResolucionUrl } from "@/utils/resolucion";
 
 export default function EventoDetalle({ evento }) {
   const formatFechaCorta = (evento) => {
@@ -20,6 +21,7 @@ export default function EventoDetalle({ evento }) {
   const redesSociales = evento.redes || {};
   const tieneRedes = Object.values(redesSociales).some(url => url);
   const posters = evento.posters || (evento.poster ? [evento.poster] : []);
+  const resolucionUrl = getResolucionUrl(evento["resolucion-link"]);
 
   return (
     <main className="border-b border-accent/60">
@@ -57,11 +59,17 @@ export default function EventoDetalle({ evento }) {
               <p className="text-base md:text-lg text-black/80 font-normal leading-relaxed mb-6">
                 {evento.descripcionLarga}
               </p>
-              {evento.resolucion && (
-                <div className="flex items-center gap-3 text-sm text-black/60">
-                  <Icon icon="solar:document-text-linear" className="w-5 h-5 flex-shrink-0 text-accent" style={{ strokeWidth: 1.5 }} />
-                  <span>{evento.resolucion}</span>
-                </div>
+              {resolucionUrl && (
+                <a
+                  href={resolucionUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-3 border border-accent/70 px-4 py-3 text-sm font-medium hover:bg-accent hover:text-[#101828] transition-colors group"
+                >
+                  <Icon icon="solar:document-text-linear" className="w-5 h-5 flex-shrink-0 text-accent group-hover:text-[#101828] transition-colors" style={{ strokeWidth: 1.5 }} />
+                  <span>{evento.resolucion || "Resolución Rectoral"}</span>
+                  <Icon icon="solar:arrow-right-up-linear" className="text-sm" style={{ strokeWidth: 1.5 }} />
+                </a>
               )}
             </div>
 
