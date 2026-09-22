@@ -12,7 +12,7 @@ export const especialidades = [
     id: "derecho-constitucional-ddhh",
     titulo: "Derecho Constitucional y Derechos Humanos",
     numero: "02",
-    imagen: "/img/special/2.webp",
+    imagen: "/img/special/22.webp",
     descripcionCorta: "Profundiza en el estudio del derecho constitucional y la protección de los derechos fundamentales.",
     descripcionLarga: "Un estudio exhaustivo de la Constitución, su contenido, naturaleza, estructura y función como norma suprema del ordenamiento jurídico. Estudiarás los derechos, libertades y deberes reconocidos a las personas (derecho a la vida, libertad de expresión, igualdad, debido proceso, entre otros), así como los mecanismos para su protección para intervenir con eficacia en la resolución de casos que involucran derechos civiles, políticos, económicos, sociales y culturales, respetando siempre los principios fundamentales constitucionales.",
     color: "#1F651C"

@@ -13,7 +13,7 @@ const especialidades = [
   {
     num: "02",
     title: "Derecho Constitucional y Derechos Humanos",
-    img: "/img/special/2.webp",
+    img: "/img/special/22.webp",
     href: "/especialidades/derecho-constitucional-ddhh"
   },
   {
