@@ -1,18 +1,15 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import { fetchEventos } from "@/services/api";
+import { eventos } from "@/data/eventos";
 import { getResolucionUrl } from "@/utils/resolucion";
 import { Icon } from "@iconify/react";
-
-export const dynamic = "force-dynamic";
 
 export const metadata = {
   title: "Eventos Académicos | USE",
   description: "Conoce todos los eventos académicos de la Unidad de Segunda Especialidad de la Facultad de Derecho UNT",
 };
 
-export default async function EventosPage() {
-  const eventos = await fetchEventos();
+export default function EventosPage() {
   const formatFecha = (evento) => {
     const meses = {
       enero: "Enero", febrero: "Febrero", marzo: "Marzo", abril: "Abril",

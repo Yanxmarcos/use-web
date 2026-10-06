@@ -9,12 +9,10 @@ import FAQ from "@/components/FAQ";
 import Contacto from "@/components/Contacto";
 import Footer from "@/components/Footer";
 import EventModal from "@/components/EventModal";
-import { fetchEventosRecientes } from "@/services/api";
+import { getEventosRecientes } from "@/data/eventos";
 
-export const dynamic = "force-dynamic";
-
-export default async function Home() {
-  const eventosRecientes = await fetchEventosRecientes(3);
+export default function Home() {
+  const eventosRecientes = getEventosRecientes(3);
   const eventoReciente = eventosRecientes[0];
 
   return (
